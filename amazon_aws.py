@@ -156,8 +156,8 @@ t2 = PythonOperator(
 	)
 
 
-notebook_in_path = '/path/to/amazon-spend-etl/AmazonOrderHistoryAirflow_input.ipynb'
-notebook_out_path = '/path/to/amazon-spend-etl/AmazonOrderHistoryAirflow_output.ipynb'
+notebook_in_path = '/path/to/amazon-spend-etl/amazon-spend-etl_input.ipynb'
+notebook_out_path = '/path/to/amazon-spend-etl/amazon-spend-etl_output.ipynb'
 
 def run_notebook():
 	pm.execute_notebook(notebook_in_path,notebook_out_path)

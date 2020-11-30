@@ -11,7 +11,7 @@ This repository includes an [Airflow DAG](amazon_aws.py) that contains ETL code 
 1. [Data Processing](#1-data-processing)
 2. [Data Analysis](#2-data-analysis)
 3. [SQL](#3-sql)
-4. [SQL](#4-ec2)
+4. [EC2](#4-ec2)
 
 # 1. Data Processing
 

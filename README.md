@@ -93,8 +93,6 @@ SQLAlchemy can be used to directly query data from a SQL database. The queries c
 
 # 4. EC2
 
-Just for fun, I made this project run entirely on the cloud. 
+Just for fun, I made this project run entirely on the cloud. A separate repository includes a dag file on an AWS EC2 instance. The dag contains an additional task that loads the completed Jupyter Notebook to a bucket hosted on AWS S3. The entire pipeline is automated via Airflow. 
 
 ![pipeline_ec2.png](img/pipeline_ec2.png)
-
-A separate repository includes a dag file on an AWS EC2 instance. The dag contains an additional task that loads the completed Jupyter Notebook to a bucket hosted on AWS S3. The entire pipeline is automated via Airflow.

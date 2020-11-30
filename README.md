@@ -11,6 +11,7 @@ This repository includes an [Airflow DAG](amazon_aws.py) that contains ETL code 
 1. [Data Processing](#1-data-processing)
 2. [Data Analysis](#2-data-analysis)
 3. [SQL](#3-sql)
+4. [SQL](#4-ec2)
 
 # 1. Data Processing
 
@@ -89,3 +90,9 @@ Pandas allows us to read data directly from SQL using SQLAlchemy.
 SQLAlchemy can be used to directly query data from a SQL database. The queries can then be utilized inside Python. 
 
 ![SQL_PurchasesByYear](img/SQL_PurchasesByYear.png)
+
+# 4. EC2
+
+Just for fun, I made this project run entirely on an EC2 instance. 
+
+The dag file contains an additional task that loads the completed Jupyter Notebook to a bucket hosted on AWS S3.
